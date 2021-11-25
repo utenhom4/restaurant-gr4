@@ -1,16 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.bookTable;
 
+import com.Cart.cartServlet;
+import com.Mail.javaMailUtil;
 import com.business.Booktable;
 import com.data.BookDB;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,10 +17,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/**
- *
- * @author Viet
- */
 @WebServlet(name = "tableServlet", urlPatterns = {"/bookTable"})
 public class tableServlet extends HttpServlet {
 
@@ -65,6 +60,12 @@ public class tableServlet extends HttpServlet {
                         + "Please choose another table. Thank you";
                 url = "/book.jsp";
             } else {
+                System.out.println(cusEmail);
+                try {
+                    javaMailUtil.sendMail(cusEmail);
+                } catch (Exception ex) {
+                    Logger.getLogger(cartServlet.class.getName()).log(Level.SEVERE, null, ex);
+                }
                 message = "";
                 url = "/thanks.jsp";
                 BookDB.insert(book);

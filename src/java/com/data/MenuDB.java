@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.data;
 
 import javax.persistence.EntityManager;
@@ -14,10 +9,6 @@ import com.business.Menu;
 import java.util.List;
 import javax.persistence.Query;
 
-/**
- *
- * @author Admin
- */
 public class MenuDB {
 
     public static void insert(Menu menu) {

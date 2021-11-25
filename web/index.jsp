@@ -284,7 +284,7 @@
                                                             <h6>
                                                                 $20
                                                             </h6>
-                                                            <a class="btn btn-dark" href="<%=request.getContextPath()%>/cart?action=checkUser&amp;user=${sessionScope.acc.user}&amp;productCode=${menu.menuId}">Add To Cart</a>
+                                                            <a class="btn btn-dark" href="<%=request.getContextPath()%>/menu">Add To Cart</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -307,7 +307,7 @@
                                                             <h6>
                                                                 $15
                                                             </h6>
-                                                            <a class="btn btn-dark" href="<%=request.getContextPath()%>/cart?action=checkUser&amp;user=${sessionScope.acc.user}&amp;productCode=${menu.menuId}">Add To Cart</a>
+                                                            <a class="btn btn-dark" href="<%=request.getContextPath()%>/menu">Add To Cart</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -330,7 +330,7 @@
                                                             <h6>
                                                                 $18
                                                             </h6>
-                                                            <a class="btn btn-dark" href="<%=request.getContextPath()%>/cart?action=checkUser&amp;user=${sessionScope.acc.user}&amp;productCode=${menu.menuId}">Add To Cart</a>
+                                                            <a class="btn btn-dark" href="<%=request.getContextPath()%>/menu">Add To Cart</a>
                                                         </div>
                                                     </div>
                                                 </div>

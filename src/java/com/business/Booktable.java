@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.business;
 
 import java.io.Serializable;
@@ -10,10 +5,6 @@ import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-/**
- *
- * @author Viet
- */
 @Entity
 
 public class Booktable implements Serializable {

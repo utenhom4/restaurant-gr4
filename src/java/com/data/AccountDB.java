@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.data;
 
 import com.business.Account;
@@ -13,10 +8,6 @@ import javax.persistence.NoResultException;
 import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
-/**
- *
- * @author Admin
- */
 public class AccountDB {
     public static void insert(Account account) {
         EntityManager em = DBUtil.getEmFactory().createEntityManager();
@@ -152,10 +143,7 @@ public class AccountDB {
         return acc != null;
     }
     
-    public static void main(String[] args) {
-        Boolean b = AccountDB.accountUserExists("adminn");
-        System.out.println(b);
-    }
+    
  
     /*
     public static List<Menu> selectMenus() {
