@@ -91,7 +91,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form_container">
-                            <form action="bookTable" method="post">
+                            <form action="book" method="post">
                                 <input type="hidden" name="action" value="add">
                                 <div>
                                     <input type="text" class="form-control" placeholder="Your Name" name="cusName" value="${book.cusName}" required/>
@@ -108,63 +108,11 @@
                                 <div>
                                     <input type="text" class="form-control" placeholder="People" name="people" value="${book.people}" required/>
                                 </div>
-                                <!--                                <div>
-                                                                    <select class="form-control nice-select wide">
-                                                                        <option value="${book.idTable}" name="idTable" disabled selected>
-                                                                            Choose your table?
-                                                                        </option>
-                                                                        <option value="${book.idTable}" name="idTable" required>
-                                                                            1
-                                                                        </option>
-                                                                        <option value="${book.idTable}" name="idTable" required>
-                                                                            2
-                                                                        </option>
-                                                                        <option value="${book.idTable}" name="idTable" required>
-                                                                            3
-                                                                        </option>
-                                                                        <option value="${book.idTable}" name="idTable" required>
-                                                                            4
-                                                                        </option>
-                                                                        <option value="${book.idTable}" name="idTable" required>
-                                                                            5
-                                                                        </option>
-                                                                        <option value="${book.idTable}" name="idTable" required>
-                                                                            6
-                                                                        </option>
-                                                                        <option value="${book.idTable}" name="idTable" required>
-                                                                            7
-                                                                        </option>
-                                                                    </select>
-                                                                </div>
-                                                                <div>
-                                                                    <select class="form-control nice-select wide">
-                                                                        <option value="${book.people}" name="people" disabled selected>
-                                                                            How many persons?
-                                                                        </option>
-                                                                        <option value="${book.people}" name="people" required>
-                                                                            2
-                                                                        </option>
-                                                                        <option value="${book.people}" name="people" required>
-                                                                            3
-                                                                        </option>
-                                                                        <option value="${book.people}" name="people" required>
-                                                                            4
-                                                                        </option>
-                                                                        <option value="${book.people}" name="people" required>
-                                                                            5
-                                                                        </option>
-                                                                    </select>
-                                                                </div>-->
                                 <div>
                                     <input type="text" class="form-control" placeholder="Set time example: 2021/01/01" name="time" value="${book.time}" required> 
                                 </div>
                                 <div >
                                     <input type="submit" value="Book Now">
-                                    <!--<input type="hidden" name="action" value="join" class="btn_box">-->
-                                   <!-- <a href="<%=request.getContextPath()%>/bookTable">Book</a>
-                                    <button>
-                                        
-                                    </button>-->
                                 </div>
                             </form>
                         </div>

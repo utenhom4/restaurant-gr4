@@ -1,5 +1,4 @@
-package com.bookTable;
-
+package com.Controller;
 import com.Cart.cartServlet;
 import com.Mail.javaMailUtil;
 import com.business.Booktable;
@@ -17,22 +16,31 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-@WebServlet(name = "tableServlet", urlPatterns = {"/bookTable"})
+@WebServlet(name = "tableServlet", urlPatterns = {"/book"})
 public class tableServlet extends HttpServlet {
 
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        doPost(request, response);
+    }
     @Override
     protected void doPost(HttpServletRequest request,
             HttpServletResponse response)
             throws ServletException, IOException {
-        String url = "/book.html";
-
+        String url = "/book.jsp";
         // get current action
         String action = request.getParameter("action");
-        if (action == null) {
-            action = "join";  // default action
+        if(action.equals("checkUser")){
+            String user = request.getParameter("user");
+            if(user == null || user.equals("")){
+                url = "/login.jsp";
+            }
+            else {
+                action="join";
+            }
         }
-
-        // perform action and set URL to appropriate page
+        // get current action
         if (action.equals("join")) {
             url = "/book.jsp";    // the "join" page
         } else if (action.equals("add")) {

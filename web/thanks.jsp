@@ -103,6 +103,7 @@
                 </div>
                 <p>See you soon!</p>
                 <form action="" method="post">
+                    <input type="hidden" name="action" value="join">
                     <input type="submit" value="Return">                    
                 </form>
             </div>

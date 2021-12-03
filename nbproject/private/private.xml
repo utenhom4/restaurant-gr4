@@ -2,6 +2,29 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/index.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/src/java/com/Cart/cartServlet.java</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/error_404.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/src/java/com/Controller/tableServlet.java</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/cart.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/src/java/com/Mail/javaMailUtil.java</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/src/java/com/Controller/accountMngServlet.java</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/accountmanager.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/insertaccount.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/book.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/checkout.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/src/java/com/business/Booktable.java</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/error_java.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/about.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/footer.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/changepass.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/header.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/src/java/com/Controller/aboutServlet.java</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/web/thanks.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/restaurant-gr4/src/java/com/data/BookDB.java</file>
+        </group>
     </open-files>
 </project-private>
